@@ -24,5 +24,3 @@ public Action OnPlayerSay(Event event, const char[] name, bool dontBroadcast)
 
     return Plugin_Continue;
 }
-
-

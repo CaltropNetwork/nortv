@@ -5,12 +5,12 @@ on:
     branches: [ "main" ]
     paths:
       - 'nortv.sp'
-      - '.github/workflows/sourcepawn.yml'
+      - '.github/workflows/sourcepawn-11.yml'
   pull_request:
     branches: [ "main" ]
     paths:
       - 'nortv.sp'
-      - '.github/workflows/sourcepawn.yml'
+      - '.github/workflows/sourcepawn-11.yml'
 
 jobs:
   build:

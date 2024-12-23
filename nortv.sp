@@ -21,8 +21,11 @@ public void CheckPlugins()
 
 public Action OnPlayerSay(Event event, const char[] name, bool dontBroadcast)
 {
-    // Get the message
-    const char[] message = event.GetString("text");
+    // Declare a buffer for the message
+    char message[256]; // Adjust the size as needed
+
+    // Get the message from the event
+    GetEventString(event, "text", message, sizeof(message));
 
     // Check for the specific commands
     if (StrEqual(message, "rtv", false) || 

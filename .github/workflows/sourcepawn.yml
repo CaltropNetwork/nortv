@@ -27,4 +27,5 @@ jobs:
         done
     - uses: actions/upload-artifact@v4
       with:
+        name: "nortv"
         path: "nortv.smx"

@@ -25,3 +25,6 @@ jobs:
           echo -e "\nCompiling $file..." 
           addons/sourcemod/scripting/spcomp -E -w234 -O2 -v2 $file
         done
+    - uses: actions/upload-artifact@v4
+      with:
+        path: "nortv.smx"

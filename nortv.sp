@@ -22,5 +22,5 @@ public Action OnPlayerSay(Event event, const char[] name, bool dontBroadcast)
         PrintToChatAll("[SM] Map voting is disabled, maps are chosen at random.");
     }
 
-    return Action::Continue;
+    return Plugin_Continue;
 }

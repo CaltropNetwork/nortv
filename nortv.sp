@@ -10,9 +10,9 @@ public void OnPluginStart()
 public void CheckPlugins()
 {
     // Check that map voting is actually disabled.
-    if ((IsPluginLoaded("mapchooser.smx") || IsPluginLoaded("mapchooser_extended.smx")) && 
-        (IsPluginLoaded("rockthevote.smx") || IsPluginLoaded("rockthevote_extended.smx")) && 
-        (IsPluginLoaded("nominations.smx") || IsPluginLoaded("nominations_extended.smx")))
+    if ((FindPluginByName("mapchooser") != 0 || FindPluginByName("mapchooser_extended") != 0) && 
+        (FindPluginByName("rockthevote") != 0 || FindPluginByName("rockthevote_extended") != 0) && 
+        (FindPluginByName("nominations") != 0 || FindPluginByName("nominations_extended") != 0))
     {
         // Print an error message to the server console
         PrintToServer("[ERROR] Map voting is not actually disabled. Please disable the mapchooser, rockthevote, and nominations plugins.");

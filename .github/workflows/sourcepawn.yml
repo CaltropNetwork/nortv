@@ -6,6 +6,11 @@ on:
     paths:
       - 'nortv.sp'
       - '.github/workflows/sourcepawn.yml'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'nortv.sp'
+      - '.github/workflows/sourcepawn.yml'
 
 jobs:
   build:

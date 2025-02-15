@@ -4,7 +4,11 @@ public Plugin myinfo =
 {
 	name = "NoRTV",
 	author = "Asterisk",
+<<<<<<< HEAD
 	description = "Tells people trying to use RTV and nominate that those are disabled.",
+=======
+	description = "Informs players trying to use RTV or nominate that it is disabled and randomchooser is used instead.",
+>>>>>>> 680b2942aefd946addc53475026c4b5def4dfcad
 	version = "1.0.0",
 	url = "https://github.com/caltropnetwork/nortv"
 };

@@ -5,7 +5,7 @@ public Plugin myinfo =
 	name = "NoRTV",
 	author = "Asterisk",
 	description = "Tells people trying to use RTV and nominate that those are disabled.",
-	version = "1.0",
+	version = "1.0.0",
 	url = "https://github.com/caltropnetwork/nortv"
 };
 
